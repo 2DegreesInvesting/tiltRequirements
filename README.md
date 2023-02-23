@@ -23,4 +23,7 @@ devtools::install_github("2DegreesInvesting/hello.world")
 
 ``` r
 library(hello.world)
+
+hello_world()
+#> [1] "Hello world!"
 ```
