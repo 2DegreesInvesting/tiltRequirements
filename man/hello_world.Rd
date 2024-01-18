@@ -2,16 +2,21 @@
 % Please edit documentation in R/hello_world.R
 \name{hello_world}
 \alias{hello_world}
-\title{Outputs "Hello world!"}
+\title{Hello world}
 \usage{
-hello_world()
+hello_world(who = c("world", "tilt"))
 }
 \value{
-The string "Hello world!".
+A string.
 }
 \description{
-Outputs "Hello world!"
+Hello world
 }
 \examples{
 hello_world()
+
+hello_world(who = "tilt")
+
+# Errors
+try(hello_world(who = "invalid"))
 }
