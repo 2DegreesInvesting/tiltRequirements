@@ -57,8 +57,8 @@ hello("invalid")
 #> Error in match.arg(who): 'arg' should be one of "world", "tilt"
 ```
 
-You can achieve the same with a browser-based, interactive app. You can
-3 options:
+You can achieve the same with an interactive app. Use it in one of these
+ways:
 
 1.  [Online](https://tiltsmes.shinyapps.io/tiltrequirements/).
 2.  Offline from the R console with `hello_addin()`.
