@@ -66,12 +66,12 @@
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">hello_world</span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "hello world"</span>
 <span class="r-in"><span></span></span>
-<span class="r-in"><span><span class="fu">hello_world</span><span class="op">(</span>who <span class="op">=</span> <span class="st">"tilt"</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="fu">hello_world</span><span class="op">(</span><span class="st">"tilt"</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] "hello tilt"</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Errors</span></span></span>
-<span class="r-in"><span><span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">hello_world</span><span class="op">(</span>who <span class="op">=</span> <span class="st">"invalid"</span><span class="op">)</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> Error in hello_world(who = "invalid") : </span>
+<span class="r-in"><span><span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">hello_world</span><span class="op">(</span><span class="st">"invalid"</span><span class="op">)</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> Error in hello_world("invalid") : </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   `who` must be one of "world" or "tilt", not "invalid".</span>
 </code></pre></div>
     </div>
