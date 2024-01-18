@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(hello.world)
+library(tiltRequirements)
 
-test_check("hello.world")
+test_check("tiltRequirements")

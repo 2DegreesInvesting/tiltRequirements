@@ -1,17 +1,18 @@
-Package: hello.world
-Title: Hello World
+Package: tiltRequirements
+Title: Helps you to Meet the Requirements to Install and Use 'TILT'
 Version: 0.0.0.9001
 Authors@R: c(
     person("Mauro", "Lepore", , "maurolepore@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1986-7988")),
     person("2 Degrees Investing Initiative", , , "contact@2degrees-investing.org", role = c("cph", "fnd"))
   )
-Description: Hello world.
+Description: Helps you to meet the requirements to install and use 'TILT'.
 License: GPL (>= 3)
-URL: https://2degreesinvesting.github.io/hello.world/
+URL: https://2degreesinvesting.github.io/tiltRequirements/
 Depends: 
     R (>= 4.1.0)
 Suggests: 
+    pkgload,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
