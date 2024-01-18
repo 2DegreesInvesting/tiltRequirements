@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/404.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/404.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/LICENSE.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/articles/hello-world.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/articles/index.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/articles/tiltRequirements.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/authors.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/authors.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/index.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/index.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/news/index.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/pull_request_template.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/pull_request_template.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/reference/hello.html</loc>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/reference/hello.html</loc>
-  </url>
-  <url>
-    <loc>https://2degreesinvesting.github.io/hello.world/reference/index.html</loc>
+    <loc>https://2degreesinvesting.github.io/tiltRequirements/reference/index.html</loc>
   </url>
 </urlset>
