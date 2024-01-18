@@ -8,12 +8,13 @@
 [![R-CMD-check](https://github.com/2DegreesInvesting/hello.world/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/2DegreesInvesting/hello.world/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of hello.world is to prove you can install and use an R package
-from us:
+The goal of hello.world is help you install and use R packages from
+[tilt](https://www.tiltsmes.org/). It provides basic documentation and
+software to prove the following:
 
 - Your version of R is new enough to work with our packages.
-- You can access a CRAN, which distributes the dependencies of our
-  packages.
+- You can install the dependencies of our packages from a
+  [CRAN](http://cran.r-project.org/)-like repository.
 - You can access at least one of the platforms where we release our
   packages.
 - You can understand our standard instructions to install and use our
