@@ -6,6 +6,9 @@
 \usage{
 hello_world(who = c("world", "tilt"))
 }
+\arguments{
+\item{who}{A valid string.}
+}
 \value{
 A string.
 }

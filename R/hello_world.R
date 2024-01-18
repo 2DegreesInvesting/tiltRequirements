@@ -1,5 +1,7 @@
 #' Hello world
 #'
+#' @param who A valid string.
+#'
 #' @return A string.
 #' @export
 #'
