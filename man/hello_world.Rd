@@ -18,8 +18,8 @@ Hello world
 \examples{
 hello_world()
 
-hello_world(who = "tilt")
+hello_world("tilt")
 
 # Errors
-try(hello_world(who = "invalid"))
+try(hello_world("invalid"))
 }

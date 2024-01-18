@@ -8,10 +8,10 @@
 #' @examples
 #' hello_world()
 #'
-#' hello_world(who = "tilt")
+#' hello_world("tilt")
 #'
 #' # Errors
-#' try(hello_world(who = "invalid"))
+#' try(hello_world("invalid"))
 hello_world <- function(who = c("world", "tilt")) {
   who <- rlang::arg_match(who)
   paste("hello", who)
