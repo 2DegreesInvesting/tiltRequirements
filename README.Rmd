@@ -52,10 +52,10 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 ```{r example, error=TRUE}
 library(hello.world)
 
-hello_world()
+hello()
 
-hello_world("tilt")
+hello("tilt")
 
 # Errors
-hello_world("invalid")
+hello("invalid")
 ```

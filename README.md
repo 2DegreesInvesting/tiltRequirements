@@ -45,14 +45,14 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 ``` r
 library(hello.world)
 
-hello_world()
+hello()
 #> [1] "hello world"
 
-hello_world("tilt")
+hello("tilt")
 #> [1] "hello tilt"
 
 # Errors
-hello_world("invalid")
-#> Error in `hello_world()`:
+hello("invalid")
+#> Error in `hello()`:
 #> ! `who` must be one of "world" or "tilt", not "invalid".
 ```
