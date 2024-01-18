@@ -57,3 +57,9 @@ hello("invalid")
 #> Error in `hello()`:
 #> ! `who` must be one of "world" or "tilt", not "invalid".
 ```
+
+You can achieve the same with a browser-based, interactive app. Run
+`hello_addin()` in the R console, or browse Addins in RStudio and search
+for “hello”.
+
+<img src=https://github.com/2DegreesInvesting/hello.world/assets/5856545/3a102fe7-ae02-4c87-8912-dd3cc136c5f7 width=200>
