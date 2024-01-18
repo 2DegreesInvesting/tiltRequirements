@@ -53,7 +53,3 @@ tools).
 
 * Work from [RStudio projects](https://rstats.wtf/projects#rstudio-projects).
 
----
-
-TODO: Incorporate our old [Installation process](https://docs.google.com/document/d/1d6Xa6ZPUJ99Wi3EdbEz7WdUP-uXtcPC0EQrx_o1oViU/edit).
-
