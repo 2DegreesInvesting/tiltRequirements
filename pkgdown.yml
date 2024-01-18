@@ -3,7 +3,7 @@ pkgdown: 2.0.7
 pkgdown_sha: ~
 articles:
   hello-world: hello-world.html
-last_built: 2024-01-18T17:52Z
+last_built: 2024-01-18T17:56Z
 urls:
   reference: https://2degreesinvesting.github.io/hello.world/reference
   article: https://2degreesinvesting.github.io/hello.world/articles
