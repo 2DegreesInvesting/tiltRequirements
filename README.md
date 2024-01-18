@@ -25,7 +25,8 @@ You can install the development version from
 [r-universe](https://r-universe.dev/):
 
 ``` r
-options(repos = c("https://2degreesinvesting.r-universe.dev", getOption("repos")))
+# install.packages("pak")
+pak::repo_add(r_universe = "https://2degreesinvesting.r-universe.dev")
 install.packages("hello.world")
 ```
 
@@ -45,13 +46,12 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 library(hello.world)
 
 hello_world()
-#> [1] "hello world"
+#> [1] "Hello world!"
 
 hello_world("tilt")
-#> [1] "hello tilt"
+#> Error in hello_world("tilt"): unused argument ("tilt")
 
 # Errors
 hello_world("invalid")
-#> Error in `hello_world()`:
-#> ! `who` must be one of "world" or "tilt", not "invalid".
+#> Error in hello_world("invalid"): unused argument ("invalid")
 ```
