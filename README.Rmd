@@ -69,7 +69,4 @@ You can achieve the same with a browser-based, interactive app. You can 3 option
 2. Offline from the R console with `hello_addin()`.
 3. Offline from RStudio by searching for "hello" under Addins:
 
-
-<img src=FIXME width=200>
-
-You can also run the app online here.
+<img src=https://github.com/2DegreesInvesting/tiltIndicator/assets/5856545/2f24b1c8-a016-489f-bc45-09ef4ab34165 width=200>
