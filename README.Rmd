@@ -13,13 +13,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-# hello.world
+# tiltRequirements
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/2DegreesInvesting/hello.world/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/2DegreesInvesting/hello.world/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of hello.world is help you install and use R packages from
+The goal of tiltRequirements is help you install and use R packages from
 [tilt](https://www.tiltsmes.org/). It provides basic documentation and software
 to prove the following:
 
@@ -37,14 +37,14 @@ You can install the development version from
 ``` r
 # install.packages("pak")
 pak::repo_add(r_universe = "https://2degreesinvesting.r-universe.dev")
-install.packages("hello.world")
+install.packages("tiltRequirements")
 ```
 
 Or from [GitHub](https://github.com/):
 
 ``` r
 # install.packages("pak")
-pak::pak("2DegreesInvesting/hello.world")
+pak::pak("2DegreesInvesting/tiltRequirements")
 ```
 
 Having trouble? Try it on a fresh new project on <https://posit.cloud/>
@@ -53,7 +53,7 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 ## Example
 
 ```{r example, error=TRUE}
-library(hello.world)
+library(tiltRequirements)
 
 hello()
 
@@ -67,4 +67,4 @@ You can achieve the same with a browser-based, interactive app. Run
 `hello_addin()` in the R console, or browse Addins in RStudio and search for
 "hello".
 
-<img src=https://github.com/2DegreesInvesting/hello.world/assets/5856545/3a102fe7-ae02-4c87-8912-dd3cc136c5f7 width=200>
+<img src=https://github.com/2DegreesInvesting/tiltRequirements/assets/5856545/3a102fe7-ae02-4c87-8912-dd3cc136c5f7 width=200>
