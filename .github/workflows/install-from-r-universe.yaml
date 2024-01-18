@@ -37,5 +37,6 @@ jobs:
         run: |
           install.packages("pak")
           pak::repo_add(r_universe = "https://2degreesinvesting.r-universe.dev")
-          install.packages("hello.world")
+          install.packages("tiltRequirements")
+          library(tiltRequirements)
         shell: Rscript {0}
