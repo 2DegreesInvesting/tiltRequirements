@@ -8,7 +8,7 @@ Authors@R: c(
   )
 Description: Helps you to meet the requirements to install and use 'TILT'.
 License: GPL (>= 3)
-URL: https://2degreesinvesting.github.io/hello.world/
+URL: https://2degreesinvesting.github.io/tiltRequirements/
 Depends: 
     R (>= 4.1.0)
 Suggests: 
