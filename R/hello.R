@@ -16,7 +16,7 @@
 #' # Errors
 #' try(hello("invalid"))
 hello <- function(who = c("world", "tilt")) {
-  who <- rlang::arg_match(who)
+  who <- match.arg(who)
   paste("hello", who)
 }
 
