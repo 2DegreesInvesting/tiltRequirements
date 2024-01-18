@@ -6,13 +6,13 @@
 #' @export
 #'
 #' @examples
-#' hello_world()
+#' hello()
 #'
-#' hello_world("tilt")
+#' hello("tilt")
 #'
 #' # Errors
-#' try(hello_world("invalid"))
-hello_world <- function(who = c("world", "tilt")) {
+#' try(hello("invalid"))
+hello <- function(who = c("world", "tilt")) {
   who <- rlang::arg_match(who)
   paste("hello", who)
 }
