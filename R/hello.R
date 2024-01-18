@@ -23,7 +23,6 @@ hello <- function(who = c("world", "tilt")) {
 #' @export
 #' @rdname hello
 hello_addin <- function() {
-
   ui <- shiny::fluidPage(
     shiny::selectInput(
       "who",
