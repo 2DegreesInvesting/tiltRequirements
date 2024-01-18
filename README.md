@@ -45,5 +45,13 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 library(hello.world)
 
 hello_world()
-#> [1] "Hello world!"
+#> [1] "hello world"
+
+hello_world("tilt")
+#> [1] "hello tilt"
+
+# Errors
+hello_world("invalid")
+#> Error in `hello_world()`:
+#> ! `who` must be one of "world" or "tilt", not "invalid".
 ```

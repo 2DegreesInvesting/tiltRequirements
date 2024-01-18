@@ -48,8 +48,13 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 
 ## Example
 
-```{r example}
+```{r example, error=TRUE}
 library(hello.world)
 
 hello_world()
+
+hello_world("tilt")
+
+# Errors
+hello_world("invalid")
 ```
