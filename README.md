@@ -45,21 +45,23 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 
 ``` r
 library(tiltRequirements)
-#> Error in library(tiltRequirements): there is no package called 'tiltRequirements'
 
 hello()
-#> Error in hello(): could not find function "hello"
+#> [1] "hello world"
 
 hello("tilt")
-#> Error in hello("tilt"): could not find function "hello"
+#> [1] "hello tilt"
 
 # Errors
 hello("invalid")
-#> Error in hello("invalid"): could not find function "hello"
+#> Error in match.arg(who): 'arg' should be one of "world", "tilt"
 ```
 
-You can achieve the same with a browser-based, interactive app. Run
-`hello_addin()` in the R console, or browse Addins in RStudio and search
-for “hello”.
+You can achieve the same with a browser-based, interactive app. You can
+3 options:
 
-<img src=https://github.com/2DegreesInvesting/tiltRequirements/assets/5856545/3a102fe7-ae02-4c87-8912-dd3cc136c5f7 width=200>
+1.  [Online](https://tiltsmes.shinyapps.io/tiltrequirements/).
+2.  Offline from the R console with `hello_addin()`.
+3.  Offline from RStudio by searching for “hello” under Addins:
+
+<img src=https://github.com/2DegreesInvesting/tiltIndicator/assets/5856545/2f24b1c8-a016-489f-bc45-09ef4ab34165 width=200>
