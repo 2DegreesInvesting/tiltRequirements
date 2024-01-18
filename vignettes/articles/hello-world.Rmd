@@ -5,9 +5,7 @@ title: "Requirements to install and use tilt packages"
 ## Expertise
 
 * Ability to [install R and RStudio](https://happygitwithr.com/install-r-rstudio).
-
 * Ability to install R packages from [CRAN](https://cran.r-project.org/), [GitHub](https://github.com/), and maybe [r-universe](https://r-universe.dev/search/).
-
 * Experience using [R for Data Science](https://r4ds.hadley.nz/).
 
 ## Hardware
@@ -50,6 +48,5 @@ tools).
 ## R setup
 
 * [Always start R with a blank slate](https://rstats.wtf/source-and-blank-slates#always-start-r-with-a-blank-slate).
-
 * Work from [RStudio projects](https://rstats.wtf/projects#rstudio-projects).
 
