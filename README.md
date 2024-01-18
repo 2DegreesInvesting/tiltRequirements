@@ -44,13 +44,8 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 ## Example
 
 ``` r
-<<<<<<< HEAD
 library(tiltRequirements)
 #> Error in library(tiltRequirements): there is no package called 'tiltRequirements'
-=======
-library(hello.world)
-#> Error in library(hello.world): there is no package called 'hello.world'
->>>>>>> 6f5ae49 (Update readme)
 
 hello()
 #> Error in hello(): could not find function "hello"
@@ -70,10 +65,6 @@ You can achieve the same with a browser-based, interactive app. You can
 2.  Offline from the R console with `hello_addin()`.
 3.  Offline from RStudio by searching for “hello” under Addins:
 
-<<<<<<< HEAD
-<img src=https://github.com/2DegreesInvesting/tiltRequirements/assets/5856545/3a102fe7-ae02-4c87-8912-dd3cc136c5f7 width=200>
-=======
-<img src=https://github.com/2DegreesInvesting/hello.world/assets/5856545/3a102fe7-ae02-4c87-8912-dd3cc136c5f7 width=200>
+<img src=FIXME width=200>
 
 You can also run the app online here.
->>>>>>> 6f5ae49 (Update readme)
