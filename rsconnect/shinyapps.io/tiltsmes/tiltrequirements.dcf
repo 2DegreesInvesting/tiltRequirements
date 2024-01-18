@@ -5,6 +5,6 @@ account: tiltsmes
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10964042
-bundleId: 8159337
+bundleId: 8159487
 url: https://tiltsmes.shinyapps.io/tiltrequirements/
 version: 1
