@@ -1,10 +1,18 @@
-#' Outputs "Hello world!"
+#' Hello world
 #'
-#' @return The string "Hello world!".
+#' @param who A valid string.
+#'
+#' @return A string.
 #' @export
 #'
 #' @examples
 #' hello_world()
-hello_world <- function() {
-  "Hello world!"
+#'
+#' hello_world(who = "tilt")
+#'
+#' # Errors
+#' try(hello_world(who = "invalid"))
+hello_world <- function(who = c("world", "tilt")) {
+  who <- rlang::arg_match(who)
+  paste("hello", who)
 }
