@@ -5,45 +5,29 @@ title: "Requirements to install and use tilt packages"
 ## Expertise
 
 * Ability to [install R and RStudio](https://happygitwithr.com/install-r-rstudio).
-* Ability to install R packages from [CRAN](https://cran.r-project.org/), [GitHub](https://github.com/), and maybe [r-universe](https://r-universe.dev/search/).
+* Ability to install R packages from [CRAN](https://cran.r-project.org/), [GitHub](https://github.com/), and [r-universe](https://r-universe.dev/search/).
 * Experience using [R for Data Science](https://r4ds.hadley.nz/).
 
 ## Hardware
 
-In a fresh system with 8 GB RAM and 4 AMD CPUs it took us about 1 hour to
-successfully complete the four tiltWorkflows for 1/4 million companies in 250
-chunks. To be safe use 16 GB or more since you're laptop likely needs memory for
-other background processes.
+In a fresh system, 8 GB RAM and 4 AMD CPUs were enough to run the most intensive
+processes. On your laptop use 16 GB RAM or more, since it needs some memory for
+other processes.
 
 ## Software
 
-### System-level dependencies
+* [Install R and RStudio](https://happygitwithr.com/install-r-rstudio).
 
-Our software uses continuous integration workflows
-([example](https://github.com/2DegreesInvesting/tiltWorkflows/blob/main/.github/workflows/R-CMD-check.yaml))
-that ensure it works with a modern version of R in a modern version of the three
-main operative systems.
-
-Specifically,  it's tested with the latest version of R on the latest version of
-Windows, Mac, and Ubuntu. On Ubuntu, it's also tested with the last two older
-versions of R, and with the next, in-development version of R.
+We ensure our packages work on Windows, Mac, and Ubuntu, and with R >= 4.1.0
+(2021-05-18).
 
 ### R packages
 
-[Install the tiltWorfllows
-pacakge](https://2degreesinvesting.github.io/tiltWorkflows/#installation).
-Everything else installs automatically.
-
-For more details see the [DESCRIPTION
-file](https://github.com/2DegreesInvesting/tiltWorkflows/blob/main/DESCRIPTION)
-of the tiltWorkflows package. Required R packages are listed under
-[Depends](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltWorkflows+path%3ADESCRIPTION+%22Depends%3A%22&type=code),
-[Imports](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltWorkflows+path%3ADESCRIPTION+%22Imports%3A%22&type=code),
-and
-[Remotes](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltWorkflows+path%3ADESCRIPTION+%22Remotes%3A%22&type=code).
-You may in turn see the DESCRIPTION file of each dependency to recursively find
-their own depencencies (to do this comprehensively you may need automatic
-tools).
+When you install an R package, all of its dependencies install automatically.
+You can find them in [the DESCRIPTION
+file](https://r-pkgs.org/description.html#the-description-file) under
+"Depends:", "Imports:", "Suggests:", and "Remotes:"
+([example](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&type=code)).
 
 ## R setup
 
