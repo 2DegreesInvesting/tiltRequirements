@@ -65,12 +65,13 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>The goal of tiltRequirements is help you install and use R packages from <a href="https://www.tiltsmes.org/" class="external-link">tilt</a>. It provides basic documentation and software to prove the following:</p>
+<p>The goal of tiltRequirements is to help you install and use R packages from <a href="https://www.tiltsmes.org/" class="external-link">tilt</a>. It provides basic documentation and software to prove the following:</p>
 <ul>
-<li>Your version of R is new enough to work with our packages.</li>
-<li>You can install the dependencies of our packages from a <a href="http://cran.r-project.org/" class="external-link">CRAN</a>-like repository.</li>
-<li>You can access at least one of the platforms where we release our packages.</li>
-<li>You can understand our standard instructions to install and use our packages.</li>
+<li>Your version of <a href="https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22R+%28%3E%22&amp;type=code" class="external-link">R is new enough</a> to work with our packages.</li>
+<li>You can install from <a href="https://cran.r-project.org/" class="external-link">CRAN</a> the dependencies that our packages <a href="https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&amp;type=code" class="external-link">import</a>.</li>
+<li>You can access our packages from <a href="https://r-universe.dev/" class="external-link">r-universe</a> or <a href="https://github.com/" class="external-link">GitHub</a>.</li>
+<li>You understand our standard <a href="#installation">Installation</a> instructions and <a href="#example">Example</a>.</li>
+<li>You can interact with our code from our standard <a href="https://tiltsmes.shinyapps.io/tiltrequirementsapp/" class="external-link">interactive apps</a>.</li>
 </ul>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -91,13 +92,12 @@
 </h2>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://2degreesinvesting.github.io/tiltRequirements/">tiltRequirements</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; Warning: package 'tiltRequirements' was built under R version 4.3.2</span></span>
 <span></span>
 <span><span class="fu"><a href="reference/hello.html">hello</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "hello world"</span></span>
+<span><span class="co">#&gt; hello world</span></span>
 <span></span>
 <span><span class="fu"><a href="reference/hello.html">hello</a></span><span class="op">(</span><span class="st">"tilt"</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "hello tilt"</span></span>
+<span><span class="co">#&gt; hello tilt</span></span>
 <span></span>
 <span><span class="co"># Errors</span></span>
 <span><span class="fu"><a href="reference/hello.html">hello</a></span><span class="op">(</span><span class="st">"invalid"</span><span class="op">)</span></span>
