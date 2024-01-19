@@ -32,8 +32,8 @@ and software to prove the following:
 
 ## Installation
 
-You can install the development version from
-[r-universe](https://r-universe.dev/):
+You can install the latest release from
+[r-universe](https://r-universe.dev/) with:
 
 ``` r
 # install.packages("pak")
@@ -41,7 +41,7 @@ pak::repo_add(r_universe = "https://2degreesinvesting.r-universe.dev")
 install.packages("tiltRequirements")
 ```
 
-Or from [GitHub](https://github.com/):
+Or the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
