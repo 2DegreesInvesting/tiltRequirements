@@ -2,12 +2,6 @@
 title: "Requirements to install and use tilt packages"
 ---
 
-## Expertise
-
-* Ability to [install R and RStudio](https://happygitwithr.com/install-r-rstudio).
-* Ability to install R packages from [CRAN](https://cran.r-project.org/), [GitHub](https://github.com/), and [r-universe](https://r-universe.dev/search/).
-* Experience using [R for Data Science](https://r4ds.hadley.nz/).
-
 ## Hardware
 
 In a fresh system, 8 GB RAM and 4 AMD CPUs were enough to run the most intensive
@@ -16,15 +10,11 @@ other processes.
 
 ## Software
 
+* Operative system: Our packages are tested on the latest version of Windows, Mac,
+and Ubuntu, and with R >= 4.1.0 (released on 2021-05-18).
 * [Install R and RStudio](https://happygitwithr.com/install-r-rstudio).
-
-We ensure our packages work on Windows, Mac, and Ubuntu, and with R >= 4.1.0
-(2021-05-18).
-
-### R packages
-
-When you install an R package, all of its dependencies install automatically.
-You can find them in [the DESCRIPTION
+* R packages: When you install an R package, all of its dependencies install
+automatically. You can find them in [the DESCRIPTION
 file](https://r-pkgs.org/description.html#the-description-file) under
 "Depends:", "Imports:", "Suggests:", and "Remotes:"
 ([example](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&type=code)).
@@ -33,4 +23,9 @@ file](https://r-pkgs.org/description.html#the-description-file) under
 
 * [Always start R with a blank slate](https://rstats.wtf/source-and-blank-slates#always-start-r-with-a-blank-slate).
 * Work from [RStudio projects](https://rstats.wtf/projects#rstudio-projects).
+
+## Expertise
+
+* It's nice to have experience using [R for Data Science](https://r4ds.hadley.nz/).
+
 
