@@ -14,7 +14,6 @@ Depends:
 Imports: 
     glue
 Suggests: 
-    pkgload,
     testthat (>= 3.0.0)
 Config/Needs/website: rmarkdown
 Config/testthat/edition: 3
