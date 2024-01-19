@@ -16,8 +16,10 @@ knitr::opts_chunk$set(
 # tiltRequirements
 
 <!-- badges: start -->
+[![tiltRequirements status badge](https://2degreesinvesting.r-universe.dev/badges/tiltRequirements)](https://2degreesinvesting.r-universe.dev/tiltRequirements)
 [![R-CMD-check](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/2DegreesInvesting/tiltRequirements/branch/main/graph/badge.svg)](https://app.codecov.io/gh/2DegreesInvesting/tiltRequirements?branch=main)
+
 <!-- badges: end -->
 
 The goal of tiltRequirements is to help you install and use R packages from
