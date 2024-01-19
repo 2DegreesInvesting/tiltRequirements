@@ -43,6 +43,11 @@ Or from [GitHub](https://github.com/):
 pak::pak("2DegreesInvesting/tiltRequirements")
 ```
 
+If you install from GitHub you may need to [prepare your system to build
+packages from
+source](https://usethis.r-lib.org/articles/usethis-setup.html#prepare-your-system-to-build-packages-from-source)
+(if on Windows see “Install Rtools”).
+
 Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 (free).
 
@@ -64,3 +69,6 @@ hello("invalid")
 
 You can also achieve the same with an [interactive app
 online](https://tiltsmes.shinyapps.io/tiltrequirementsapp/).
+
+[Get
+started](https://2degreesinvesting.github.io/tiltRequirements/articles/tiltRequirements.html).
