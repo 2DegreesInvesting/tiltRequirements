@@ -15,9 +15,9 @@ and software to prove the following:
 - Your version of [R is new
   enough](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22R+%28%3E%22&type=code)
   to work with our packages.
-- You can install the dependencies of our packages
-  ([example](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&type=code))
-  from [CRAN](http://cran.r-project.org/) or similar.
+- You can install from [CRAN](http://cran.r-project.org/) the
+  dependencies that our packages
+  [import](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&type=code).
 - You can access our packages from [r-universe](https://r-universe.dev/)
   or [GitHub](https://github.com/).
 - You understand our standard [Installation](#installation) instructions
