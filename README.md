@@ -8,17 +8,22 @@
 [![R-CMD-check](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of tiltRequirements is help you install and use R packages from
-[tilt](https://www.tiltsmes.org/). It provides basic documentation and
-software to prove the following:
+The goal of tiltRequirements is to help you install and use R packages
+from [tilt](https://www.tiltsmes.org/). It provides basic documentation
+and software to prove the following:
 
-- Your version of R is new enough to work with our packages.
-- You can install the dependencies of our packages from a
-  [CRAN](http://cran.r-project.org/)-like repository.
-- You can access at least one of the platforms where we release our
-  packages.
-- You can understand our standard instructions to install and use our
-  packages.
+- Your version of [R is new
+  enough](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22R+%28%3E%22&type=code)
+  to work with our packages.
+- You can install from [CRAN](https://cran.r-project.org/) the
+  dependencies that our packages
+  [import](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&type=code).
+- You can access our packages from [r-universe](https://r-universe.dev/)
+  or [GitHub](https://github.com/).
+- You understand our standard [Installation](#installation) instructions
+  and [Example](#example).
+- You can interact with our code from our standard [interactive
+  apps](https://tiltsmes.shinyapps.io/tiltrequirementsapp/).
 
 ## Installation
 
@@ -45,13 +50,12 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 
 ``` r
 library(tiltRequirements)
-#> Warning: package 'tiltRequirements' was built under R version 4.3.2
 
 hello()
-#> [1] "hello world"
+#> hello world
 
 hello("tilt")
-#> [1] "hello tilt"
+#> hello tilt
 
 # Errors
 hello("invalid")
