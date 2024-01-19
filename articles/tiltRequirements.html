@@ -75,53 +75,27 @@
     
     
 <div class="section level2">
-<h2 id="expertise">Expertise<a class="anchor" aria-label="anchor" href="#expertise"></a>
-</h2>
-<ul>
-<li>Ability to <a href="https://happygitwithr.com/install-r-rstudio" class="external-link">install R and
-RStudio</a>.</li>
-<li>Ability to install R packages from <a href="https://cran.r-project.org/" class="external-link">CRAN</a>, <a href="https://github.com/" class="external-link">GitHub</a>, and maybe <a href="https://r-universe.dev/search/" class="external-link">r-universe</a>.</li>
-<li>Experience using <a href="https://r4ds.hadley.nz/" class="external-link">R for Data
-Science</a>.</li>
-</ul>
-</div>
-<div class="section level2">
 <h2 id="hardware">Hardware<a class="anchor" aria-label="anchor" href="#hardware"></a>
 </h2>
-<p>In a fresh system with 8 GB RAM and 4 AMD CPUs it took us about 1
-hour to successfully complete the four tiltWorkflows for 1/4 million
-companies in 250 chunks. To be safe use 16 GB or more since you’re
-laptop likely needs memory for other background processes.</p>
+<p>In a fresh system, 8 GB RAM and 4 AMD CPUs were enough to run the
+most intensive processes. On your laptop use 16 GB RAM or more, since it
+needs some memory for other processes.</p>
 </div>
 <div class="section level2">
 <h2 id="software">Software<a class="anchor" aria-label="anchor" href="#software"></a>
 </h2>
-<div class="section level3">
-<h3 id="system-level-dependencies">System-level dependencies<a class="anchor" aria-label="anchor" href="#system-level-dependencies"></a>
-</h3>
-<p>Our software uses continuous integration workflows (<a href="https://github.com/2DegreesInvesting/tiltWorkflows/blob/main/.github/workflows/R-CMD-check.yaml" class="external-link">example</a>)
-that ensure it works with a modern version of R in a modern version of
-the three main operative systems.</p>
-<p>Specifically, it’s tested with the latest version of R on the latest
-version of Windows, Mac, and Ubuntu. On Ubuntu, it’s also tested with
-the last two older versions of R, and with the next, in-development
-version of R.</p>
-</div>
-<div class="section level3">
-<h3 id="r-packages">R packages<a class="anchor" aria-label="anchor" href="#r-packages"></a>
-</h3>
-<p><a href="https://2degreesinvesting.github.io/tiltWorkflows/#installation" class="external-link">Install
-the tiltWorfllows pacakge</a>. Everything else installs
-automatically.</p>
-<p>For more details see the <a href="https://github.com/2DegreesInvesting/tiltWorkflows/blob/main/DESCRIPTION" class="external-link">DESCRIPTION
-file</a> of the tiltWorkflows package. Required R packages are listed
-under <a href="https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltWorkflows+path%3ADESCRIPTION+%22Depends%3A%22&amp;type=code" class="external-link">Depends</a>,
-<a href="https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltWorkflows+path%3ADESCRIPTION+%22Imports%3A%22&amp;type=code" class="external-link">Imports</a>,
-and <a href="https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltWorkflows+path%3ADESCRIPTION+%22Remotes%3A%22&amp;type=code" class="external-link">Remotes</a>.
-You may in turn see the DESCRIPTION file of each dependency to
-recursively find their own depencencies (to do this comprehensively you
-may need automatic tools).</p>
-</div>
+<ul>
+<li>Operative system: Our packages are tested on the latest version of
+Windows, Mac, and Ubuntu, and with R &gt;= 4.1.0 (released on
+2021-05-18).</li>
+<li>
+<a href="https://happygitwithr.com/install-r-rstudio" class="external-link">Install R and
+RStudio</a>.</li>
+<li>R packages: When you install an R package, all of its dependencies
+install automatically. You can find them in <a href="https://r-pkgs.org/description.html#the-description-file" class="external-link">the
+DESCRIPTION file</a> under “Depends:”, “Imports:”, “Suggests:”, and
+“Remotes:” (<a href="https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&amp;type=code" class="external-link">example</a>).</li>
+</ul>
 </div>
 <div class="section level2">
 <h2 id="r-setup">R setup<a class="anchor" aria-label="anchor" href="#r-setup"></a>
@@ -132,6 +106,13 @@ may need automatic tools).</p>
 start R with a blank slate</a>.</li>
 <li>Work from <a href="https://rstats.wtf/projects#rstudio-projects" class="external-link">RStudio
 projects</a>.</li>
+</ul>
+</div>
+<div class="section level2">
+<h2 id="expertise">Expertise<a class="anchor" aria-label="anchor" href="#expertise"></a>
+</h2>
+<ul>
+<li>It’s nice to have experience using <a href="https://r4ds.hadley.nz/" class="external-link">R for Data Science</a>.</li>
 </ul>
 </div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
