@@ -2,12 +2,9 @@
 % Please edit documentation in R/hello.R
 \name{hello}
 \alias{hello}
-\alias{hello_addin}
-\title{Greet the world or tilt with code or your mouse}
+\title{Say hello}
 \usage{
 hello(who = c("world", "tilt"))
-
-hello_addin()
 }
 \arguments{
 \item{who}{A valid string.}
@@ -16,8 +13,7 @@ hello_addin()
 A string.
 }
 \description{
-Greet the world from R with \code{hello()} or from the web-browser with
-\code{hello_addin()} (from RStudio click on "Addins" and type "hello").
+Say hello
 }
 \examples{
 hello()

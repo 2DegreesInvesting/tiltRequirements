@@ -45,6 +45,7 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 
 ``` r
 library(tiltRequirements)
+#> Warning: package 'tiltRequirements' was built under R version 4.3.2
 
 hello()
 #> [1] "hello world"
@@ -58,4 +59,4 @@ hello("invalid")
 ```
 
 You can also achieve the same with an [interactive app
-online](https://tiltsmes.shinyapps.io/tiltrequirements/).
+online](https://tiltsmes.shinyapps.io/tiltrequirementsapp/).

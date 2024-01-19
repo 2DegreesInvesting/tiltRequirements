@@ -64,4 +64,4 @@ hello("invalid")
 ```
 
 You can also achieve the same with an [interactive app
-online](https://tiltsmes.shinyapps.io/tiltrequirements/).
+online](https://tiltsmes.shinyapps.io/tiltrequirementsapp/).

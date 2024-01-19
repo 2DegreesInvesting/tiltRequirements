@@ -8,6 +8,4 @@
 ^pkgdown$
 ^vignettes/articles$
 ^tiltRequirements\.Rproj$
-^app\.R$
-^rsconnect$
 
