@@ -8,9 +8,9 @@
 [![R-CMD-check](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/2DegreesInvesting/tiltRequirements/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of tiltRequirements is help you install and use R packages from
-[tilt](https://www.tiltsmes.org/). It provides basic documentation and
-software to prove the following:
+The goal of tiltRequirements is to help you install and use R packages
+from [tilt](https://www.tiltsmes.org/). It provides basic documentation
+and software to prove the following:
 
 - Your version of R is new enough to work with our packages.
 - You can install the dependencies of our packages from a
