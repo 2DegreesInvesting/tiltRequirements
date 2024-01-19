@@ -71,4 +71,4 @@ You can also achieve the same with an [interactive app
 online](https://tiltsmes.shinyapps.io/tiltrequirementsapp/).
 
 [Get
-started](http://localhost:8788/files/git/tiltRequirements/docs/articles/tiltRequirements.html).
+started](https://2degreesinvesting.github.io/tiltRequirements/articles/tiltRequirements.html).
