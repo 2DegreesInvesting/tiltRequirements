@@ -9,3 +9,4 @@
 ^vignettes/articles$
 ^tiltRequirements\.Rproj$
 
+^codecov\.yml$
