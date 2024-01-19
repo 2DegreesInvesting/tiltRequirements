@@ -27,5 +27,3 @@ file](https://r-pkgs.org/description.html#the-description-file) under
 ## Expertise
 
 * It's nice to have experience using [R for Data Science](https://r4ds.hadley.nz/).
-
-
