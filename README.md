@@ -57,11 +57,5 @@ hello("invalid")
 #> Error in match.arg(who): 'arg' should be one of "world", "tilt"
 ```
 
-You can achieve the same with an interactive app. Use it in one of these
-ways:
-
-1.  [Online](https://tiltsmes.shinyapps.io/tiltrequirements/).
-2.  Offline from the R console with `hello_addin()`.
-3.  Offline from RStudio by searching for “hello” under Addins:
-
-<img src=https://github.com/2DegreesInvesting/tiltIndicator/assets/5856545/2f24b1c8-a016-489f-bc45-09ef4ab34165 width=200>
+You can also achieve the same with an [interactive app
+online](https://tiltsmes.shinyapps.io/tiltrequirements/).
