@@ -26,12 +26,12 @@ to prove the following:
 * Your version of [R is new
 enough](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22R+%28%3E%22&type=code)
 to work with our packages.
-* You can install from [CRAN](http://cran.r-project.org/) the dependencies that
+* You can install from [CRAN](https://cran.r-project.org/) the dependencies that
 our packages
 [import](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&type=code).
 * You can access our packages from [r-universe](https://r-universe.dev/) or
 [GitHub](https://github.com/).
-* You understand our standard [Installation] instructions and [Examples].
+* You understand our standard [Installation] instructions and [Example].
 * You can interact with our code from our standard [interactive
 apps](https://tiltsmes.shinyapps.io/tiltrequirementsapp/).
 
