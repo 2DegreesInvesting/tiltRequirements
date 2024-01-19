@@ -19,6 +19,7 @@ and software to prove the following:
   packages.
 - You can understand our standard instructions to install and use our
   packages.
+- You can interact with our code from our standard interactive apps.
 
 ## Installation
 
@@ -45,13 +46,12 @@ Having trouble? Try it on a fresh new project on <https://posit.cloud/>
 
 ``` r
 library(tiltRequirements)
-#> Warning: package 'tiltRequirements' was built under R version 4.3.2
 
 hello()
-#> [1] "hello world"
+#> hello world
 
 hello("tilt")
-#> [1] "hello tilt"
+#> hello tilt
 
 # Errors
 hello("invalid")

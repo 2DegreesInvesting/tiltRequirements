@@ -28,6 +28,7 @@ to prove the following:
 [CRAN](http://cran.r-project.org/)-like repository.
 * You can access at least one of the platforms where we release our packages.
 * You can understand our standard instructions to install and use our packages.
+* You can interact with our code from our standard interactive apps.
 
 ## Installation
 
