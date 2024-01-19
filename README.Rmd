@@ -23,12 +23,17 @@ The goal of tiltRequirements is to help you install and use R packages from
 [tilt](https://www.tiltsmes.org/). It provides basic documentation and software
 to prove the following:
 
-* Your version of R is new enough to work with our packages.
-* You can install the dependencies of our packages from a
-[CRAN](http://cran.r-project.org/)-like repository.
-* You can access at least one of the platforms where we release our packages.
-* You can understand our standard instructions to install and use our packages.
-* You can interact with our code from our standard interactive apps.
+* Your version of [R is new
+enough](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22R+%28%3E%22&type=code)
+to work with our packages.
+* You can install the dependencies of our packages
+([example](https://github.com/search?q=repo%3A2DegreesInvesting%2FtiltRequirements++path%3ADESCRIPTION+%22Imports%3A%22&type=code))
+from [CRAN](http://cran.r-project.org/) or similar.
+* You can access our packages from [r-universe](https://r-universe.dev/) or
+[GitHub](https://github.com/).
+* You understand our standard [Installation] instructions and [Examples].
+* You can interact with our code from our standard [interactive
+apps](https://tiltsmes.shinyapps.io/tiltrequirementsapp/).
 
 ## Installation
 
